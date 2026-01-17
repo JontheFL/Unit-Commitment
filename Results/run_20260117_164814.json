@@ -1,0 +1,553 @@
+{
+  "run_id": "20260117_164814",
+  "timestamp": "2026-01-17T16:48:14.210108",
+  "parameters": {
+    "dataset": "B",
+    "num_scenarios": 200,
+    "penalty_weight": 1000,
+    "generation_weight": 1.0
+  },
+  "optimization": {
+    "total_cost": 408962.189799994,
+    "solver_status": "ok",
+    "termination_condition": "optimal"
+  },
+  "penalties": {
+    "scenarios_with_violations": 0,
+    "total_scenarios": 200,
+    "worst_scenario": 0,
+    "worst_penalty": 0.0,
+    "min_penalty": 0.0,
+    "max_penalty": 0.0
+  },
+  "hourly_schedule": [
+    {
+      "hour": 0,
+      "load": 496.0,
+      "wind_avg": 66.7,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 263.6959999999992,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 165.60400000000053,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 1,
+      "load": 476.0,
+      "wind_avg": 55.7,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 258.9159999999992,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 161.38400000000055,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 2,
+      "load": 468.0,
+      "wind_avg": 58.7,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 252.9240000000006,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 156.37600000000046,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 3,
+      "load": 472.0,
+      "wind_avg": 62.5,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 252.65199999999936,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 156.84799999999953,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 4,
+      "load": 486.0,
+      "wind_avg": 61.6,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 260.83599999999916,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 163.56400000000056,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 5,
+      "load": 520.0,
+      "wind_avg": 61.0,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 279.74,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 179.26,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 6,
+      "load": 584.0,
+      "wind_avg": 57.1,
+      "solar_avg": 56.95,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 288.55800000000073,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 181.39199999999948,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 7,
+      "load": 622.0,
+      "wind_avg": 58.1,
+      "solar_avg": 55.1,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 214.3999999999998,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 177.8,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 116.59999999999972,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 8,
+      "load": 655.0,
+      "wind_avg": 60.1,
+      "solar_avg": 54.5,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 228.43,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 179.25,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 132.72,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 9,
+      "load": 671.0,
+      "wind_avg": 60.0,
+      "solar_avg": 52.85,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 237.18199999999925,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 179.685,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 141.2830000000004,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 10,
+      "load": 689.0,
+      "wind_avg": 57.1,
+      "solar_avg": 58.1,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 244.87700000000075,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 180.0,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 148.92299999999955,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 11,
+      "load": 701.0,
+      "wind_avg": 61.0,
+      "solar_avg": 106.45,
+      "u_wind": 0,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 253.87499999999957,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 180.0,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 160.6750000000003,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 12,
+      "load": 693.0,
+      "wind_avg": 60.7,
+      "solar_avg": 95.15,
+      "u_wind": 0,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 256.88300000000055,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 180.0,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 160.96700000000038,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 13,
+      "load": 686.0,
+      "wind_avg": 57.1,
+      "solar_avg": 108.05,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 225.09699999999958,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 178.435,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 117.31800000000014,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 14,
+      "load": 647.0,
+      "wind_avg": 65.0,
+      "solar_avg": 106.6,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 297.25799999999947,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 178.1419999999999,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 15,
+      "load": 626.0,
+      "wind_avg": 64.0,
+      "solar_avg": 53.5,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 214.61399999999955,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 177.85,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 116.03600000000013,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 16,
+      "load": 613.0,
+      "wind_avg": 61.8,
+      "solar_avg": 51.6,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 311.0620000000004,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 188.53800000000004,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 17,
+      "load": 616.0,
+      "wind_avg": 56.2,
+      "solar_avg": 54.1,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 315.22599999999966,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 190.4740000000002,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 18,
+      "load": 645.0,
+      "wind_avg": 66.3,
+      "solar_avg": 55.85,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 221.35,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 178.85,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 122.65,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 19,
+      "load": 644.0,
+      "wind_avg": 60.8,
+      "solar_avg": 52.45,
+      "u_wind": 1,
+      "u_solar": 1,
+      "generators": {
+        "gen_1": {
+          "power": 223.53600000000063,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 179.31,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 127.90399999999975,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 20,
+      "load": 605.0,
+      "wind_avg": 59.9,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 229.04,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 180.0,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 136.06,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 21,
+      "load": 577.0,
+      "wind_avg": 65.4,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 215.36799999999982,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 178.7,
+          "status": 1
+        },
+        "gen_3": {
+          "power": 117.53199999999971,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 22,
+      "load": 551.0,
+      "wind_avg": 55.5,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 304.5539999999998,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 190.94600000000014,
+          "status": 1
+        }
+      }
+    },
+    {
+      "hour": 23,
+      "load": 520.0,
+      "wind_avg": 67.5,
+      "solar_avg": 0.0,
+      "u_wind": 1,
+      "u_solar": 0,
+      "generators": {
+        "gen_1": {
+          "power": 275.96,
+          "status": 1
+        },
+        "gen_2": {
+          "power": 0.0,
+          "status": 0
+        },
+        "gen_3": {
+          "power": 176.54,
+          "status": 1
+        }
+      }
+    }
+  ]
+}
